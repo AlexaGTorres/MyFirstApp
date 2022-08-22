@@ -18,8 +18,9 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
     }
 
-    public void onClickToast (View view)
+    public void onClick (View view)
     {
         Toast.makeText(this, "Next Page! :D", Toast.LENGTH_LONG).show();
+        startActivity(new Intent(MainActivity.this, SecondActivity.class));
     }
 }
