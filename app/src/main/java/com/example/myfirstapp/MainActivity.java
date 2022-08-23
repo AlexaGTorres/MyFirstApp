@@ -21,8 +21,9 @@ public class MainActivity extends AppCompatActivity
 
     public void onClick (View view)
     {
-        Toast.makeText(this, "Next Page! :D", Toast.LENGTH_LONG).show();
         startActivity(new Intent(MainActivity.this, SecondActivity.class));
+        Toast.makeText(this, "Next Page! :D", Toast.LENGTH_LONG).show();//It was working I swear
         Log.i("info", "Logcat thing I don't remember.");
+
     }
 }

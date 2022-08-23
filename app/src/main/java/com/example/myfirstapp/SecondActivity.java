@@ -19,7 +19,6 @@ public class SecondActivity extends AppCompatActivity
 
     public void onClickBack (View view)
     {
-        Toast.makeText(this, "Next Page! :D", Toast.LENGTH_LONG).show();
         startActivity(new Intent(SecondActivity.this, MainActivity.class));
     }
 }
