@@ -11,4 +11,4 @@ Assignment Requirements Below:\
 -2 Screens.\
 -LogCat output.\
 -Android Toast.\
--Client call (splash screen).\
+-Client call (splash screen).
